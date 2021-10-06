@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="backdrop">
+        <div class="modal">
+            <button class="modal-button-close">
+                <svg class="icon-button-close">
+                    <use href="./images/symbol-defs.svg#icon-Vector"></use>
+                </svg>
+            </button>
+            <h1 class="modal-title">Оставьте свои данные, мы вам перезвоним</h1>
+            <!-- Форма  -->
+            <form class="modal-form" autocomplete="on">
+                <ul>
+                    <li class="list form-item">
+                        <label class="form-text" for="user-name">
+                            <svg class="modal-ikon">
+                                <use  href="./images/modal.svg#icon-person-black-18dp-1"></use>
+                            </svg>
+                            Имя</label>
+                        <input class="modal-form-input" type="text" id="user-name" placeholder=" ">
+                    </li>
+                    <li class="list">
+                        <label class="form-text" for="user-tel">
+                            <svg class="modal-ikon">
+                                <use href="./images/modal.svg#icon-phone-black-18dp-1"></use>
+                            </svg>
+                            Телефон</label>
+                        <input class="modal-form-input" type="tel" id="user-tel" placeholder=" ">
+                    </li>
+                    <li class="list">
+                        <label class="form-text" for="user-mail">
+                            <svg class="modal-ikon">
+                                <use href="./images/modal.svg#icon-email-black-18dp-1"></use>
+                            </svg>
+                            Почта</label>
+                        <input class="modal-form-input" type="email" id="user-mail" placeholder=" ">
+                    </li>
+                    <li class="list">
+                        <label class="form-text" for="user-coment">Коментарий</label>
+                        <textarea class="form-coment" name="text" id="user-coment" rows="" placeholder="Введите текст"></textarea>
+                    </li>
+                </ul>
+                <div>
+                    <input type="checkbox" name="agree" id="agree">
+                    <label class="form-agree" for="agree"><p>Соглашаюсь срассілкой и принимаю <a href="">Условия договора</a></p>
+                    </label>
+                </div>
+                <button class="modal-button" type="submit"> Отправить</button>
+                
+                
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
