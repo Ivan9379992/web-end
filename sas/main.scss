@@ -2,111 +2,21 @@
 @import "./utils/_variables";
 
 /* теги */
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::after,
-*::before {
-    box-sizing: inherit;
-}
-
-
-header {
-    border-bottom: 1px solid #ECECEC;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-}
-
-img {
-    display: block;
-    height: auto;
-    min-width: 100%;
-}
-
+@import "./base/_common";
 
 /* утилиты */
-.visually-hidden {
-    position: absolute !important;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0 !important;
-    border: 0 !important;
-    height: 1px !important;
-    width: 1px !important;
-    overflow: hidden;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-p,
-ul,
-li {
-    margin: 0;
-    padding: 0;
-}
-
-
+@import "./utils/_visually-hidden-utils";
 
 /* общие класы */
 
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.section {
-    margin-bottom: 94px;
-}
-
-.list {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-}
-
-.link {
-    text-decoration: none;
-    color: var(--main-color);
-}
-
-.link :hover,
-.link :focus {
-    color: var(--accent-color);
-}
+@import "./base/_conteiner";
 
 /* cетка елементов */
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
-}
-
-.grid-item {
-    margin-left: 30px;
-    margin-top: 30px;
-    flex-basis: calc((100% - var(--grid-item) * 30px) / var(--grid-item));
-}
+@import "./components/grid";
 
 
 /* соцыальные сети */
-.contact-icon {
-    fill: currentColor;
-    margin-right: 10px;
-}
+@import "./components/_contact-icon"
 
 
 /* общие стили для заголовков */
@@ -119,7 +29,6 @@ li {
     letter-spacing: 0.03em;
 
     color: var(--title-color);
-
 }
 
 /* стилизвция по порядку */
@@ -234,10 +143,6 @@ header>.container {
 
 
 /* work principles */
-.work-principles-items {}
-
-.work-principles-item {}
-
 .work-principles-box-icon {
     display: flex;
     width: 270px;
