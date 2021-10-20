@@ -9,7 +9,7 @@
     href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./site/public/stylesheets/main.min.css">
 </head>
 <body>
     <!-- header -->
@@ -381,7 +381,7 @@
             </ul>
                 </address>
             </div>
-            <div >
+            <div class="box-join">
                 <h2 class="title-footer">присоединяйтесь</h2>
                 <ul class="icons-social list">
                     <li>
@@ -414,6 +414,14 @@
                     </li>
                 </ul>
             </div>
+                <form class="footer__form" name="subscribe" autocomplete="on">
+                        <label class="footer__form-text" for="footer-form__email">Подпишитесь на рассылку</label>
+                        <div>
+                            <input class="footer__input" type="email" id="footer-form__email" placeholder="E-mail">
+                            <button class="footer__btn" type="submit">Подписаться</button>
+                        </div>
+                        
+                </form>
         </div>
     </footer>
     <script src="./js/modal.js"></script>

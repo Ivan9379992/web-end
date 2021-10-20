@@ -11,7 +11,7 @@
         ".vscode/**",
         ".git/**"
     ],
-    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.generateMap": true,
     "liveSassCompile.settings.autoprefix": [
         "> 1%",
         "last 10 versions"
