@@ -1,0 +1,8 @@
+.contact-items {
+    display: flex;
+    margin-left: auto;
+}
+
+.contact-items :not(:last-child) {
+    margin-right: 30px;
+}

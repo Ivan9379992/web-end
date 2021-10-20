@@ -1,0 +1,33 @@
+.work-principles-box-icon {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: var(--second-section-bgc);
+}
+
+.work-principles-icon {
+    width: 70px;
+    height: 70px;
+
+}
+
+.work-principles-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.work-principles-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}

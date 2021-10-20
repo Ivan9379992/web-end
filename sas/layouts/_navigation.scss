@@ -1,0 +1,19 @@
+.mein-nav {
+    display: flex;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-items li+li {
+    margin-left: 50px;
+}
+
+.nav-item {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
